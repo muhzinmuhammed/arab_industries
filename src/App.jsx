@@ -1,4 +1,5 @@
 import Header from "./Components/Header";
+import Parallex from "./Pages/ParallexPage";
 import Careousal from "./Pages/Careousal";
 
 
@@ -11,6 +12,8 @@ function App() {
     <Header/>
 {/* Careousal */}
 <Careousal/>
+
+<Parallex/>
  
    </>
   );
