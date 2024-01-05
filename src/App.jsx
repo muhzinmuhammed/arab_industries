@@ -1,15 +1,15 @@
+import Careousal from "./Pages/Careousal";
+
 
 
 function App() {
   
 
   return (
-    <>
-      <h1 className="text-3xl  underline">
-      Hello world!
-    </h1>
-    </>
-  )
-}
 
+    // careousal
+    <Careousal/>
+     // careousal
+  );
+}
 export default App
