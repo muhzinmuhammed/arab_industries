@@ -1,3 +1,4 @@
+import Header from "./Components/Header";
 import Careousal from "./Pages/Careousal";
 
 
@@ -6,10 +7,12 @@ function App() {
   
 
   return (
-
-    // careousal
-    <Careousal/>
-     // careousal
+   <>
+    <Header/>
+{/* Careousal */}
+<Careousal/>
+ 
+   </>
   );
 }
 export default App

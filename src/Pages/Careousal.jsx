@@ -9,7 +9,7 @@ const Careousal = () => {
         "https://getwallpapers.com/wallpaper/full/5/c/0/606489.jpg",
       ];
   return (
-    <div className=" w-[80%] m-auto pt-11">
+    <div className=" w-[80%] m-auto pt-11 ">
     <Careousals slides={slides} />
   </div>
   )
