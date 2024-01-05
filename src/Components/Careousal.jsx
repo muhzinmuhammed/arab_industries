@@ -4,6 +4,7 @@ import {
   BsFillArrowLeftCircleFill,
 } from "react-icons/bs";
 
+
 const Carousel = ({ slides }) => {
   let [current, setCurrent] = useState(0);
 
